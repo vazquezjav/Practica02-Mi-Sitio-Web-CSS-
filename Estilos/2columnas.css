@@ -1,15 +1,11 @@
 
 #header{
     width: 100%;
-    border-width: 1px;
-    border-color: brown;
-    border-style: double; 
-}
-#header{
-    width: 100%;
-    border-width: 1px;
-    border-color: brown;
-    border-style: double; 
+    border-width: 2px;
+    border-color: blue;
+    border-style: solid ; 
+    background-color: #E69DA0;
+    text-align: center;
 }
 #menu{
     width: 20%;
@@ -25,11 +21,9 @@
      border-width: 3px ;
      border-color: darkgreen;
      border-style: solid;
-     background-image: url(reglas.css);
-     background-repeat: no-repeat;
-     background-position: center;
-     background-attachment: fixed;
-     float: left;
+     float: right;
+     background-color: #D0C1E6;
+    text-align: center; 
 }
 #footer{
     border-width: 2px;

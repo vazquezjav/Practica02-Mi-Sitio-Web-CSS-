@@ -8,12 +8,14 @@
     text-align: center; 
 }
 #nav{
-    
+   border-width: 1px;
+   border-color: white;
+   background-color: aquamarine;
 }
 
 .image1{
     width: 500px;
-    height: 500px;
+    height: 400px;
 }
 h1{
     color:blue;
@@ -30,13 +32,48 @@ h3{
     font-weight: normal;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-p.pincipal{
-    color: aquamarine;
+p.strong strong{
+    color: #DE7679;
+}
+p.em em{
+    color: darkorchid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #segundo{
     color: blue;
 }
-#footer{
-    clear: both;
+.ovalo{
+    border-width: 2px;
+    border-color: aqua;
+    border-style: inset;
+    background-color: #E8B3DC;
+    border-radius: 100%;
     text-align: center;
+}
+li{
+    margin: 5px;
+}
+.imagencentro{
+
+    background-image: url("Imagenes/fondoTecn");
+    background-repeat: no-repeat;
+    background-position: initial;
+    background-attachment: fixed;
+    float: left;
+}
+td{
+    text-align: center;
+}
+table{
+    border-width: 1px;
+    border-color: aqua;
+    border-style: groove;
+    border-spacing: 3px;
+}
+p{
+    word-spacing: 4mm;
+}
+ol{
+    font: bold 18px times;
+    color: cadetblue;
 }
