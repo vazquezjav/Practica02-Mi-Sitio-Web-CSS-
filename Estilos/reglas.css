@@ -1,0 +1,42 @@
+
+
+#header{
+    width: 100%;
+    border-width: 1px;
+    border-color: brown;
+    border-style: double;
+    text-align: center; 
+}
+#nav{
+    
+}
+
+.image1{
+    width: 500px;
+    height: 500px;
+}
+h1{
+    color:blue;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    color: coral;
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+}
+h3{
+    color: mediumorchid;
+    font-weight: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p.pincipal{
+    color: aquamarine;
+}
+#segundo{
+    color: blue;
+}
+#footer{
+    clear: both;
+    text-align: center;
+}
