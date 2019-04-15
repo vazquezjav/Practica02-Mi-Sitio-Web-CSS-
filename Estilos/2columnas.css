@@ -13,6 +13,7 @@
     border-width: 2px;
     border-color: black;
     border-style: solid;
+    background-color: white;
 }
 #contenido {
     width: 75%;
@@ -23,12 +24,13 @@
      border-style: solid;
      float: right;
      background-color: #D0C1E6;
-    text-align: center; 
+    text-align: center ; 
 }
 #footer{
     border-width: 2px;
     border-color: #3EB2DE;
     border-style: dotted;
     clear: both;
-    text-align: center;
+    text-align: right;
+    background-color: #C5E6DE;
 }

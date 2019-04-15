@@ -72,8 +72,132 @@ table{
 }
 p{
     word-spacing: 4mm;
+    text-align: justify; 
+}
+.centro{
+    text-align: center;
 }
 ol{
     font: bold 18px times;
     color: cadetblue;
+}
+strong{
+    color: darkgoldenrod;
+}
+.decor{
+    text-decoration: underline;
+}
+.argumento{
+    text-decoration-line: underline;
+    font-family: fantasy;
+
+}
+#inicio{
+    color: dimgrey;
+
+}
+#cabEntre{
+    background-color: #1cddaf;
+}
+.contenImpo{
+    color: brown;
+    font-style: oblique;
+}
+.efecImagen{
+   -webkit-transform:scale(1.3);transform:scale(1.3);
+   overflow:scroll;
+}
+h4{
+    color: dodgerblue;
+    font-weight: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h5{
+    color: tomato;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.redondear{
+     height: 400px;
+     width: 400px;
+     background-repeat: no-repeat;
+     background-position: 50%;
+     border-radius: 50%;
+     background-size: 100% auto;
+}
+article{
+    background-color: #E5E6C5;
+}
+html{
+    background-color: #F0CC4F;  
+}
+.centrar{
+    height: 400px;
+    width: 500px;
+    position: relative;
+}
+.textoC{
+    text-align: center;
+}
+.rotar:hover{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); 
+}
+form {
+    padding: 1em;
+    background: #f9f9f9;
+    border: 1px solid #c1c1c1;
+    margin-top: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+}
+form input {
+    margin-bottom: 1rem;
+    background: #fff;
+    border: 1px solid #9c9c9c;
+}
+form button {
+    background: lightgrey;
+    padding: 0.7em;
+    border: 0;
+}
+form button:hover {
+    background: coral;
+}
+label {
+    text-align: center;
+    display: block;
+    padding: 0.5em 1.5em 0.5em 0;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.7em;
+    margin-bottom: 0.5rem;
+  }
+  input:focus {
+    outline: 3px solid lightcoral;
+  }
+  
+  @media (min-width: 600px) {
+form {
+      overflow: scroll;
+ }
+  
+label {
+      float: left;
+      width: 300px;
+}
+  
+input {
+      float: left;
+      width: calc(100% - 200px);
+}
+
+button {
+      float: right;
+      width: calc(100% - 200px);
+}
 }
